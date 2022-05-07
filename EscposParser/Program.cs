@@ -651,7 +651,7 @@ CommandNode root = new CommandNode
                 {
                     Code = '\x56',
                     Description = "GS V 用紙のカット",
-                    Skip = 1,
+                    Skip = 2,
                 },
                 new CommandNode
                 {
