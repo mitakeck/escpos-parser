@@ -55,6 +55,6 @@ $ echo "Hello" | receiptio -p escpos | ./escpos-parser
 1D42    GS B 白黒反転印字の指定・解除   (30)
 1D21    GS ! 文字サイズの指定   (00)
 20A     LF 印字改行     ()
-1D56    GS V 用紙のカット       (42)
-01D72   GS r ステータスの送信   (31)
+1D56    GS V 用紙のカット       (42-00)
+1D72    GS r ステータスの送信   (31)
 ```
